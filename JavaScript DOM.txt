@@ -1,0 +1,74 @@
+dom: document object model tree --->nodes for tags
+
+
+
+////head and body are sibling 
+
+///html are parent for head and body also
+
+///head and body are child for html
+
+///root is html
+
+///leaf not have child like text image 
+
+
+
+js do code html through run time 
+1- search for node or more than one at same time
+2- action dealing (add-delete-modify)
+
+
+
+
+<script type="text/javascript">
+	var idd=document.getElementById("idddd");
+	var iddcontent=idd.innerText;
+	alert(iddcontent);
+</script>
+
+var iddcontent=idd.innerHtml;
+idd.innerHtml=<u>ffffffffffffffffffffff</U> tree +++++++++ zadt
+
+-------------------------------------------------------------
+
+
+var node=document.createElement("b");need to link it 
+node.innerText="iam bold";
+get the element id u need to link this node with it say welcome
+welcome.appenchild(node);
+------------------------------------------------------
+
+
+
+var idd=document.getElementById("idddd");
+var iddparent=idd.parentNode;
+iddparent.innerText="dafafadfadfad";//this line will change the content in parent idd to be dafafadfadfad
+
+---------------------------------------------------------------------------------------------------
+
+
+var idd=document.getElementById("idddd");
+var iddattributet=idd.getAttribute("size");
+alert(iddattributet)
+------------------------------------ 
+var idd=document.getElementById("idddd");
+var iddattributet=idd.setAttribute("size",3);
+-------------------------------------------------------------------------------------------------------------]
+var idd=document.body;
+idd.innerText="sssssssdsadfsffaf";//all will remove and add this sssssssdsadfsffaf like paragraph
+-------------------------------------------------------------------------------------------------------------]
+
+var idd=document.getElementById("idddd");
+var iddparent=idd.parentNode;
+iddparen.removechild(idd);
+-------------------------------------------------------------------------------------------------------------]
+var idd=document.getElementById("idddd");
+idd.removeAttribute("style")
+
+
+
+
+
+
+

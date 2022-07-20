@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form name="calc">
+        <table>
+            <tr><input type="text" name="Input"value="" size="13" disabled></tr>
+            <tr>
+                <td><input type="button" value="1" onclick="calc.Input.value +='1'"></td>
+                <td><input type="button" value="2" onclick="calc.Input.value +='2'"></td>
+                <td><input type="button" value="3" onclick="calc.Input.value +='3'"></td>
+                <td><input type="button" value="+" onclick="calc.Input.value +='+'"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4"onclick="calc.Input.value +='4'"></td>
+                <td><input type="button" value="5"onclick="calc.Input.value +='5'"></td>
+                <td><input type="button" value="6"onclick="calc.Input.value +='6'"></td>
+                <td><input type="button" value="-"onclick="calc.Input.value +='-'"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="7"onclick="calc.Input.value +='7'"></td>
+                <td><input type="button" value="8"onclick="calc.Input.value +='8'"></td>
+                <td><input type="button" value="9"onclick="calc.Input.value +='9'"></td>
+                <td><input type="button" value="*"onclick="calc.Input.value +='*'"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="c"onclick="calc.Input.value +=''"></td>
+                <td><input type="button" value="0"onclick="calc.Input.value +='0'"></td>
+                <td><input type="button" value="="onclick="calc.Input.value=eval(calc.Input.value)"></td>
+                <td><input type="button" value="/"onclick="calc.Input.value +='/'"></td>
+            </tr>
+        </table>
+    </form>
+
+    <script src="main.js"></script>
+</body>
+</html>
